@@ -9,6 +9,10 @@ namespace TestCI
         [TestMethod]
         public void TestMethod1()
         {
+            string name = "Peera";
+            string name2 = "xxxx";
+
+            Assert.AreEqual(name, name2);
         }
     }
 }
